@@ -11,15 +11,6 @@ class ToyStore {
         toys.add(toy);
     }
 
-    public void updateToyFrequency(int toyId, double newFrequency) {
-        for (Toy toy : toys) {
-            if (toy.getId() == toyId) {
-                toy.setFrequency(newFrequency);
-                break;
-            }
-        }
-    }
-
     public Toy drawToy() {
         Random random = new Random();
         double totalFrequency = toys.stream().mapToDouble(Toy::getFrequency).sum();
@@ -35,7 +26,7 @@ class ToyStore {
             randomNumber -= toy.getFrequency();
         }
 
-        return null; // No toy drawn
+        return null;
     }
 
     private void saveToyToFile(Toy toy) {

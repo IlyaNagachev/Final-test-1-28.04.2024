@@ -31,7 +31,4 @@ class Toy {
         return frequency;
     }
 
-    public void setFrequency(double frequency) {
-        this.frequency = frequency;
-    }
 }

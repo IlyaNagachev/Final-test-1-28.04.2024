@@ -1,2 +1,9 @@
-ID: 2, Name: Doll
-ID: 2, Name: Doll
+ID: 3, Name: Робот
+ID: 3, Name: Робот
+ID: 3, Name: Робот
+ID: 3, Name: Робот
+ID: 3, Name: Робот
+ID: 1, Name: Плюшевая игрушка
+ID: 4, Name: Машинка
+ID: 3, Name: Робот
+ID: 3, Name: Робот
